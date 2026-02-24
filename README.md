@@ -1,1 +1,1 @@
-# great-job.github.io
+# great-job.gitub.io
