@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <title>صفحه اصلی</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #ffffff;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 80px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+        
+        .box {
+            background-color: #f3e8d8;
+            /* کرمی */
+            border-radius: 14px;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+        
+        .box:hover {
+            transform: translateY(-8px);
+        }
+        
+        .box h2 {
+            margin-bottom: 12px;
+            color: #333;
+        }
+        
+        .box p {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">
+            <h2>باکس اول</h2>
+            <p>اینجا می‌تونی معرفی کوتاه بذاری</p>
+        </div>
+
+        <div class="box">
+            <h2>باکس دوم</h2>
+            <p>مثلاً خدمات یا مهارت‌ها</p>
+        </div>
+
+        <div class="box">
+            <h2>باکس سوم</h2>
+            <p>نمونه‌کار یا توضیح اضافه</p>
+        </div>
+
+        <div class="box">
+            <h2>باکس چهارم</h2>
+            <p>راه ارتباطی یا توضیح نهایی</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
